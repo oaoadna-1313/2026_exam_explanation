@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>國中段考國文試題詳解（雙色螢光筆版）總目錄導覽首頁 | 龍門國中 ✕ 學思軒</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;900&family=Outfit:wght@600;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            200: '#99f6e4',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                            950: '#042f2e',
+                        },
+                        amberGold: '#f59e0b',
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans TC"', 'sans-serif'],
+                        serif: ['"Noto Serif TC"', 'serif'],
+                        outfit: ['"Outfit"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 30px -10px rgba(15, 118, 110, 0.2);
+        }
+        .glass-header {
+            background: rgba(19, 78, 74, 0.95);
+            backdrop-filter: blur(12px);
+        }
+        mark.hl-y {
+            background-color: #fef08a;
+            color: #713f12;
+            padding: 0 3px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        mark.hl-g {
+            background-color: #bbf7d0;
+            color: #14532d;
+            padding: 0 3px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col antialiased selection:bg-amber-200 selection:text-amber-900">
+
+    <!-- 頂部精緻橫幅 Header -->
+    <header class="glass-header text-white border-b-2 border-amber-400 sticky top-0 z-50 shadow-md">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+                <span class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-400 to-amber-200 text-teal-950 flex items-center justify-center font-black text-xl shadow-md">
+                    龍
+                </span>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-xs font-bold px-2 py-0.5 rounded bg-teal-800/80 border border-teal-400/40 text-teal-200">
+                            龍門國中 ✕ 學思軒國文教室
+                        </span>
+                        <span class="text-xs text-amber-300 font-medium hidden sm:inline">雙色螢光筆全解析</span>
+                    </div>
+                    <h1 class="text-base sm:text-lg font-black tracking-wide text-white">
+                        國中段考國文試題詳解學習網頁
+                    </h1>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <a href="#download-section" class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-600/80 hover:bg-emerald-600 border border-emerald-400/40 text-white rounded-lg text-xs font-bold transition shadow-sm">
+                    <i class="fa-solid fa-file-excel text-amber-300"></i> Excel總覽表
+                </a>
+                <a href="https://github.com/oaoadna-1313/2026_exam_explanation" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-slate-800/80 hover:bg-slate-800 border border-slate-600 text-white rounded-lg text-xs font-bold transition shadow-sm">
+                    <i class="fa-brands fa-github text-slate-300"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主橫幅 Hero Section -->
+    <section class="bg-gradient-to-b from-teal-900 via-teal-800 to-emerald-900 text-white pt-10 pb-14 px-4 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400/20 border border-amber-300/40 text-amber-200 text-xs sm:text-sm font-bold mb-4 animate-pulse">
+                <i class="fa-solid fa-highlighter text-amber-300"></i> 學思軒必勝技：左右開弓全腦高效學習法
+            </div>
+            <h2 class="text-2xl sm:text-4xl font-serif font-black tracking-tight mb-4 text-amber-50">
+                國中國文段考試題詳解互動系統
+            </h2>
+            <p class="text-sm sm:text-base text-teal-100 max-w-2xl mx-auto mb-8 leading-relaxed">
+                完整收錄國中段考題本真題解析！真實重現教師手畫<mark class="hl-y">黃色基礎防禦</mark>與<mark class="hl-g">綠色進階攻擊</mark>雙色螢光筆標記，配搭文言文白話對譯、成語精闢解析與線上即時交卷計分。
+            </p>
+
+            <!-- 數據統計指標列 -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto">
+                <div class="bg-teal-950/60 backdrop-blur border border-teal-700/50 rounded-xl p-3 shadow-lg">
+                    <div class="text-xs text-teal-300 font-bold mb-1">收錄試卷總數</div>
+                    <div class="text-2xl font-black font-outfit text-amber-300">2 <span class="text-xs font-normal text-teal-200">份大卷</span></div>
+                    <div class="text-[11px] text-teal-300/80 mt-0.5">持續擴充更新</div>
+                </div>
+                <div class="bg-teal-950/60 backdrop-blur border border-teal-700/50 rounded-xl p-3 shadow-lg">
+                    <div class="text-xs text-teal-300 font-bold mb-1">精闢試題解析</div>
+                    <div class="text-2xl font-black font-outfit text-emerald-300">116 <span class="text-xs font-normal text-teal-200">題</span></div>
+                    <div class="text-[11px] text-teal-300/80 mt-0.5">含字音字形閱讀</div>
+                </div>
+                <div class="bg-teal-950/60 backdrop-blur border border-teal-700/50 rounded-xl p-3 shadow-lg">
+                    <div class="text-xs text-teal-300 font-bold mb-1">雙色螢光筆</div>
+                    <div class="text-2xl font-black font-outfit text-yellow-300">雙色 <span class="text-xs font-normal text-teal-200">重現</span></div>
+                    <div class="text-[11px] text-teal-300/80 mt-0.5">黃綠高亮雙刃劍</div>
+                </div>
+                <div class="bg-teal-950/60 backdrop-blur border border-teal-700/50 rounded-xl p-3 shadow-lg">
+                    <div class="text-xs text-teal-300 font-bold mb-1">互動測驗模式</div>
+                    <div class="text-2xl font-black font-outfit text-cyan-300">即時 <span class="text-xs font-normal text-teal-200">計分</span></div>
+                    <div class="text-[11px] text-teal-300/80 mt-0.5">測驗訂正雙合一</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主要內容區 -->
+    <main class="max-w-6xl mx-auto px-4 py-10 flex-grow w-full">
+
+        <!-- 工具列：年級篩選與關鍵字即時搜尋 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
+            <!-- 篩選標籤 -->
+            <div class="flex items-center gap-2 w-full md:w-auto overflow-x-auto pb-1 md:pb-0" id="filter-buttons">
+                <button onclick="filterGrade('all')" class="filter-btn active px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition shadow-sm bg-brand-700 text-white flex items-center gap-1.5" data-filter="all">
+                    <i class="fa-solid fa-border-all"></i> 全部試卷 (2)
+                </button>
+                <button onclick="filterGrade('7')" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition bg-slate-100 hover:bg-teal-50 text-slate-700 hover:text-teal-700 flex items-center gap-1.5" data-filter="7">
+                    <i class="fa-solid fa-leaf text-emerald-600"></i> 七年級 (1)
+                </button>
+                <button onclick="filterGrade('8')" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition bg-slate-100 hover:bg-teal-50 text-slate-700 hover:text-teal-700 flex items-center gap-1.5" data-filter="8">
+                    <i class="fa-solid fa-tree text-amber-600"></i> 八年級 (1)
+                </button>
+            </div>
+
+            <!-- 即時搜尋框 -->
+            <div class="relative w-full md:w-72">
+                <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+                <input type="text" id="searchInput" oninput="searchCards()" placeholder="搜尋課名、題型或關鍵字..." class="w-full pl-10 pr-4 py-2 text-xs sm:text-sm rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition bg-slate-50 focus:bg-white">
+            </div>
+        </div>
+
+        <!-- 試卷卡片格點 Cards Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6" id="examCardsGrid">
+
+            <!-- 卡片 1: 114-2 七下段三 -->
+            <div class="exam-card bg-white rounded-2xl shadow-sm border border-slate-200 card-hover overflow-hidden flex flex-col" data-grade="7" data-text="114 七下 第三次段考 國字注音 配合題 默書 成語 單題 閱讀題組 迢迢牽牛星 慈烏夜啼 曳 諡 贗 菲 彙 邃 誨 溯 玷">
+                <!-- 卡片頂部漸層標頭 -->
+                <div class="bg-gradient-to-r from-teal-800 to-emerald-700 p-5 text-white flex items-start justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2 flex-wrap">
+                            <span class="px-2.5 py-0.5 bg-amber-400 text-teal-950 font-black rounded-md text-xs font-outfit">
+                                EXAM 7-2-3
+                            </span>
+                            <span class="px-2.5 py-0.5 bg-teal-900/80 border border-teal-400/50 text-teal-200 font-bold rounded-md text-xs">
+                                七年級下學期
+                            </span>
+                            <span class="px-2.5 py-0.5 bg-emerald-900/80 border border-emerald-400/50 text-emerald-200 font-bold rounded-md text-xs">
+                                第三次段考
+                            </span>
+                        </div>
+                        <h3 class="text-lg font-black tracking-wide text-white">
+                            114學年度 七下第三次段考 試題詳解
+                        </h3>
+                        <p class="text-xs text-teal-200 mt-1">
+                            臺北市立龍門國中 • 國文科雙色螢光筆全解析版
+                        </p>
+                    </div>
+                    <div class="text-right">
+                        <span class="inline-block px-3 py-1 bg-amber-400/20 border border-amber-300/40 text-amber-300 font-black text-sm rounded-xl">
+                            57 題全解
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 卡片內容摘要 -->
+                <div class="p-6 flex-grow flex flex-col justify-between">
+                    <div>
+                        <!-- 題型大綱清單 -->
+                        <div class="space-y-2 mb-5">
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">一、國字注音</span>
+                                <span class="text-slate-600">共 18 題（含單字釋義與詞語詳解：曳、諡、贗、菲、彙、邃、誨、溯、玷等）</span>
+                            </div>
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">二、默書配合題</span>
+                                <span class="text-slate-600">共 2 題（古詩選精準填空：迢迢牽牛星、慈烏夜啼）</span>
+                            </div>
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">三、成語選擇</span>
+                                <span class="text-slate-600">共 5 題（四選一，A、B、C、D 四大選項成語逐一深度釋義）</span>
+                            </div>
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">四、單題測驗</span>
+                                <span class="text-slate-600">共 23 題（字音字形、修辭語法、情境推論、跨領域文意解析）</span>
+                            </div>
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">五、閱讀題組</span>
+                                <span class="text-slate-600">共 3 大組 9 題（白話文深度理解 ＋ 文言文全篇白話譯文對照）</span>
+                            </div>
+                        </div>
+
+                        <!-- 亮點標籤 -->
+                        <div class="flex flex-wrap gap-1.5 mb-6">
+                            <span class="px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200 text-[11px] font-bold">
+                                🌕 黃色基礎防禦
+                            </span>
+                            <span class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-[11px] font-bold">
+                                🟢 綠色進階攻擊
+                            </span>
+                            <span class="px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200 text-[11px] font-bold">
+                                📖 文言白話對譯
+                            </span>
+                            <span class="px-2 py-0.5 rounded-md bg-cyan-50 text-cyan-800 border border-cyan-200 text-[11px] font-bold">
+                                📝 線上作答即時計分
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- 操作按鈕列 -->
+                    <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+                        <a href="exam-explanation-7-2-3.html" class="flex-1 text-center py-2.5 px-4 bg-gradient-to-r from-teal-700 to-emerald-700 hover:from-teal-800 hover:to-emerald-800 text-white rounded-xl font-bold text-sm shadow-md transition transform active:scale-95 flex items-center justify-center gap-2">
+                            <span>進入試題詳解</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <button onclick="copyUrl('https://oaoadna-1313.github.io/2026_exam_explanation/exam-explanation-7-2-3.html', this)" class="px-3.5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-bold text-xs transition border border-slate-300 flex items-center gap-1.5" title="複製此考卷線上連結">
+                            <i class="fa-regular fa-copy"></i> 複製連結
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 卡片 2: 115-1 八上段一 -->
+            <div class="exam-card bg-white rounded-2xl shadow-sm border border-slate-200 card-hover overflow-hidden flex flex-col" data-grade="8" data-text="115 八上 第一次段考 國字注音 配合題 默書 成語 單題 閱讀題組 田園之秋選 蒂 毫釐 暴虐 肆無忌憚 歲月如梭 狡黠 顢頇">
+                <!-- 卡片頂部漸層標頭 -->
+                <div class="bg-gradient-to-r from-teal-900 to-slate-800 p-5 text-white flex items-start justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 mb-2 flex-wrap">
+                            <span class="px-2.5 py-0.5 bg-amber-400 text-teal-950 font-black rounded-md text-xs font-outfit">
+                                EXAM 8-1-1
+                            </span>
+                            <span class="px-2.5 py-0.5 bg-teal-900/80 border border-teal-400/50 text-teal-200 font-bold rounded-md text-xs">
+                                八年級上學期
+                            </span>
+                            <span class="px-2.5 py-0.5 bg-amber-900/80 border border-amber-400/50 text-amber-200 font-bold rounded-md text-xs">
+                                第一次段考
+                            </span>
+                        </div>
+                        <h3 class="text-lg font-black tracking-wide text-white">
+                            115學年度 八上第一次段考 試題詳解
+                        </h3>
+                        <p class="text-xs text-teal-200 mt-1">
+                            臺北市立龍門國中 • 國文科雙色螢光筆全解析版
+                        </p>
+                    </div>
+                    <div class="text-right">
+                        <span class="inline-block px-3 py-1 bg-amber-400/20 border border-amber-300/40 text-amber-300 font-black text-sm rounded-xl">
+                            59 題全解
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 卡片內容摘要 -->
+                <div class="p-6 flex-grow flex flex-col justify-between">
+                    <div>
+                        <!-- 題型大綱清單 -->
+                        <div class="space-y-2 mb-5">
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">一、國字注音</span>
+                                <span class="text-slate-600">共 20 題（含單字釋義與詞語詳解：並蒂、毫釐、暴虐、肆無忌憚、如梭、狡黠、顢頇等）</span>
+                            </div>
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">二、默書填空題</span>
+                                <span class="text-slate-600">共 1 題（陳冠學《田園之秋選》經典西北雨描摹段落完整填空與解析）</span>
+                            </div>
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">三、成語選擇</span>
+                                <span class="text-slate-600">共 5 題（生活語境、人物行事、語意反常之精選成語辨析全詳解）</span>
+                            </div>
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">四、單題測驗</span>
+                                <span class="text-slate-600">共 23 題（字形音義比較、古典詩文理解、現代散文脈絡推論）</span>
+                            </div>
+                            <div class="flex items-start gap-2.5 text-xs text-slate-700">
+                                <span class="font-bold text-teal-700 w-24 shrink-0">五、閱讀題組</span>
+                                <span class="text-slate-600">共 4 大組 10 題（文白並進、科普與人文跨領域文本，文言文附白話翻譯）</span>
+                            </div>
+                        </div>
+
+                        <!-- 亮點標籤 -->
+                        <div class="flex flex-wrap gap-1.5 mb-6">
+                            <span class="px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200 text-[11px] font-bold">
+                                🌕 黃色基礎防禦
+                            </span>
+                            <span class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-[11px] font-bold">
+                                🟢 綠色進階攻擊
+                            </span>
+                            <span class="px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200 text-[11px] font-bold">
+                                📖 文言白話對譯
+                            </span>
+                            <span class="px-2 py-0.5 rounded-md bg-cyan-50 text-cyan-800 border border-cyan-200 text-[11px] font-bold">
+                                📝 線上作答即時計分
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- 操作按鈕列 -->
+                    <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+                        <a href="exam-explanation-8-1-1.html" class="flex-1 text-center py-2.5 px-4 bg-gradient-to-r from-teal-700 to-slate-800 hover:from-teal-800 hover:to-slate-900 text-white rounded-xl font-bold text-sm shadow-md transition transform active:scale-95 flex items-center justify-center gap-2">
+                            <span>進入試題詳解</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <button onclick="copyUrl('https://oaoadna-1313.github.io/2026_exam_explanation/exam-explanation-8-1-1.html', this)" class="px-3.5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-bold text-xs transition border border-slate-300 flex items-center gap-1.5" title="複製此考卷線上連結">
+                            <i class="fa-regular fa-copy"></i> 複製連結
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 空搜尋提示 (預設隱藏) -->
+        <div id="noResults" class="hidden text-center py-12 bg-white rounded-2xl border border-dashed border-slate-300 my-6">
+            <i class="fa-solid fa-folder-open text-slate-300 text-4xl mb-3"></i>
+            <h4 class="text-base font-bold text-slate-600 mb-1">找不到符合的段考題本</h4>
+            <p class="text-xs text-slate-400">請嘗試更換關鍵字或點選「全部試卷」標籤</p>
+        </div>
+
+        <!-- 學思軒必勝技：左右開弓全腦高效學習法 深度導引專區 -->
+        <div class="mt-12 bg-gradient-to-br from-teal-900 via-teal-800 to-emerald-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl relative overflow-hidden border border-teal-700/60">
+            <div class="relative z-10">
+                <div class="flex items-center gap-2 text-amber-300 text-xs sm:text-sm font-bold mb-2">
+                    <i class="fa-solid fa-brain"></i>
+                    <span>學思軒獨家必勝技：全腦開弓高效學習體系</span>
+                </div>
+                <h3 class="text-xl sm:text-2xl font-black mb-4 text-white">
+                    為什麼段考詳解要用「雙色螢光筆」？
+                </h3>
+                <p class="text-xs sm:text-sm text-teal-100 leading-relaxed mb-6 max-w-3xl">
+                    傳統的考後訂正往往只是死記正確答案，無法建立解題遷移能力。學思軒黃于珊老師獨創「雙色螢光筆左右開弓法」，透過科學化的色調分流，將大腦從被動記憶轉化為主動獵取考點：
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-teal-950/70 backdrop-blur rounded-2xl p-5 border border-amber-400/30">
+                        <div class="flex items-center gap-2.5 mb-2">
+                            <span class="w-7 h-7 rounded-lg bg-amber-400 text-teal-950 font-black flex items-center justify-center text-sm shadow">
+                                黃
+                            </span>
+                            <h4 class="text-base font-bold text-amber-300">黃色螢光筆【基礎防禦：形式標記】</h4>
+                        </div>
+                        <p class="text-xs text-slate-200 leading-relaxed">
+                            標註題幹中**「最恰當/何者非/下列敘述何者正確」**等限定條件與提問標的；在文章中標出文眼、過渡句與段落結構。如同防禦盾牌，確保讀題零失誤、不粗心！
+                        </p>
+                    </div>
+
+                    <div class="bg-teal-950/70 backdrop-blur rounded-2xl p-5 border border-emerald-400/30">
+                        <div class="flex items-center gap-2.5 mb-2">
+                            <span class="w-7 h-7 rounded-lg bg-emerald-400 text-teal-950 font-black flex items-center justify-center text-sm shadow">
+                                綠
+                            </span>
+                            <h4 class="text-base font-bold text-emerald-300">綠色螢光筆【進階攻擊：內涵推論】</h4>
+                        </div>
+                        <p class="text-xs text-slate-200 leading-relaxed">
+                            直擊解題核心與破綻！標出關鍵因果句、情感轉折、深層隱喻與破題線索；並在選項中標出偷換概念與謬誤之處。如同鋒利寶劍，精準斬斷陷阱選項！
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 下載專區 Download Section -->
+        <section id="download-section" class="mt-12 bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div>
+                    <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold mb-2">
+                        <i class="fa-solid fa-table"></i> 官方資源下載
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-black text-slate-800">
+                        2026 段考詳解網址對照總覽表 (Excel .xlsx)
+                    </h3>
+                    <p class="text-xs sm:text-sm text-slate-500 mt-1">
+                        收錄所有試卷之中文名稱、英文檔名、總題數、課本單元向度與 GitHub Pages 一鍵直達超連結。
+                    </p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <a href="2026_段考詳解_網址總覽表.xlsx" download class="inline-flex items-center gap-2 px-5 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-xs sm:text-sm shadow-md transition transform active:scale-95">
+                        <i class="fa-solid fa-file-arrow-down text-base text-amber-300"></i>
+                        <span>下載 Excel 總覽表</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 頁尾 Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 px-4 border-t border-slate-800 text-center text-xs mt-12">
+        <div class="max-w-4xl mx-auto space-y-3">
+            <p class="text-sm text-amber-400 font-serif font-bold tracking-wide">
+                𖤐 只要有心，人人都是國文神！ 𖤐
+            </p>
+            <p class="text-slate-300 font-medium">
+                臺北市立龍門國中 黃于珊、王斐亭老師製作 • 學思軒國文教室版權所有
+            </p>
+            <div class="flex items-center justify-center gap-4 text-slate-500 text-xs pt-2">
+                <a href="https://github.com/oaoadna-1313/2026_exam_explanation" target="_blank" class="hover:text-amber-400 transition">
+                    <i class="fa-brands fa-github"></i> GitHub 儲存庫
+                </a>
+                <span>•</span>
+                <a href="index.html" class="hover:text-amber-400 transition">首頁目錄</a>
+                <span>•</span>
+                <span>雙色螢光筆互動詳解系統</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast 彈出提示通知 -->
+    <div id="toast" class="fixed bottom-6 right-6 bg-slate-900 text-white px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-3 transform translate-y-24 opacity-0 transition-all duration-300 z-50 pointer-events-none border border-slate-700 text-xs sm:text-sm">
+        <span class="w-6 h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xs font-black">✓</span>
+        <span id="toastMsg" class="font-bold">線上網址已複製至剪貼簿！</span>
+    </div>
+
+    <!-- 互動邏輯 JS -->
+    <script>
+        function filterGrade(grade) {
+            const buttons = document.querySelectorAll('#filter-buttons button');
+            buttons.forEach(btn => {
+                if (btn.getAttribute('data-filter') === grade) {
+                    btn.classList.add('active', 'bg-brand-700', 'text-white');
+                    btn.classList.remove('bg-slate-100', 'text-slate-700');
+                } else {
+                    btn.classList.remove('active', 'bg-brand-700', 'text-white');
+                    btn.classList.add('bg-slate-100', 'text-slate-700');
+                }
+            });
+
+            const cards = document.querySelectorAll('.exam-card');
+            let visibleCount = 0;
+            cards.forEach(card => {
+                const cardGrade = card.getAttribute('data-grade');
+                if (grade === 'all' || cardGrade === grade) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            document.getElementById('noResults').classList.toggle('hidden', visibleCount > 0);
+        }
+
+        function searchCards() {
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
+            const cards = document.querySelectorAll('.exam-card');
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const text = card.getAttribute('data-text').toLowerCase();
+                const title = card.querySelector('h3').innerText.toLowerCase();
+                if (!query || text.includes(query) || title.includes(query)) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            document.getElementById('noResults').classList.toggle('hidden', visibleCount > 0);
+        }
+
+        function copyUrl(url, btn) {
+            navigator.clipboard.writeText(url).then(() => {
+                showToast('已成功複製線上網址至剪貼簿！');
+            }).catch(() => {
+                const temp = document.createElement('input');
+                temp.value = url;
+                document.body.appendChild(temp);
+                temp.select();
+                document.execCommand('copy');
+                document.body.removeChild(temp);
+                showToast('已成功複製線上網址！');
+            });
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toastMsg').innerText = msg;
+            toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+            }, 2500);
+        }
+    </script>
+</body>
+</html>
