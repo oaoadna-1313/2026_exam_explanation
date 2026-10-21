@@ -18,7 +18,7 @@
 | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **0** | **全站總覽** | **全系列** | **總目錄** | `index.html` | 2 份大卷 | 總目錄導覽首頁、即時搜尋、左右開弓指南 | [🔗 點此進入首頁](https://oaoadna-1313.github.io/2026_exam_explanation/) |
 | **1** | 114學年度 | 七年級下學期 | 第三次段考 | `exam-explanation-7-2-3.html` | 57 題 | 國字注音 18 題、古詩默書 2 題、成語 5 題、單題 23 題、閱讀題組 9 題 | [🔗 點此進入詳解](https://oaoadna-1313.github.io/2026_exam_explanation/exam-explanation-7-2-3.html) |
-| **2** | 115學年度 | 八年級上學期 | 第一次段考 | `exam-explanation-8-1-1.html` | 59 題 | 國字注音 20 題、田園之秋默書 1 題、成語 5 題、單題 23 題、閱讀題組 10 題 | [🔗 點此進入詳解](https://oaoadna-1313.github.io/2026_exam_explanation/exam-explanation-8-1-1.html) |
+| **2** | 115學年度 | 八年級上學期 | 第一次段考 | `exam-explanation-8-1-1.html` | 62 題 | 國字注音 20 題、詩意配合 4 題、成語 5 題、單題 23 題、閱讀題組 10 題 | [🔗 點此進入詳解](https://oaoadna-1313.github.io/2026_exam_explanation/exam-explanation-8-1-1.html) |
 
 > 💡 **簡短跳轉網址 (Short URLs)**：
 > - 七下段三：[`exam-7-2-3.html`](https://oaoadna-1313.github.io/2026_exam_explanation/exam-7-2-3.html)
